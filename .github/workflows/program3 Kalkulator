@@ -1,0 +1,33 @@
+/*
+  Naslov na programot: Zbir, razlika, proizvod i kolicnik na tri broja
+  Izraboten od strana na Ivan Ivanovski
+*/
+#include<iostream>
+using namepace std;
+int main(){
+  int broj1,broj2, zbir, razlika, proizvod;
+  float kolicnik;
+  
+  cout<<"Programot presmetuva zbir, razlika, kolicnik i proizvod na dva vneseni broja "<<endl;
+  cout<<"Vnesi gi broevite"<<endl;
+  
+  cin>>broj1>>broj2;
+  
+  zbir=broj1+broj2;
+  razlika=broj1+broj2;
+  proizvod=broj1+broj2;
+  
+  if(broj2>0)
+  kolicnik = (float) broj1/broj2;
+  else
+  cout<<" Nemoze da se deli so nula "<<endl;
+  
+  cout<<"Zbir na broevite "<<broj1<<" + "<<broj2<<" iznesuva "<<zbir<<endl;
+  cout<<"Razlika na broevite "<<broj1<<" - "<<broj2<<" iznesuva "<<razlika<<endl;
+  cout<<"Proizvod na broevite "<<broj1<<" * "<<broj2<<" iznesuva "<<proizvod<<endl;
+  cout<<"Kolicni na broevite "<<broj1<<" / "<<broj2<<" iznesuva "<<kolicnik<<endl;
+  
+  
+  cin.get();
+  
+}
