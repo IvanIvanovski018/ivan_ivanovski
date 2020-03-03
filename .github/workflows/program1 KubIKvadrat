@@ -7,6 +7,13 @@
 #include<iostream>
 using namespace std;
 int main(){
-  int
+  int a;
+  cout<<"Vnesi go celiot broj"<<endl;
+  cin>>a;
+  cout<<"Kvadrat na brojot iznesuva: "<<a*a<<endl;
+  cout<<"Kub na kvadratot iznesuva: "<<a*a*a<<endl;
+  
+  cin.get();
+  cin.get();
 
 }
