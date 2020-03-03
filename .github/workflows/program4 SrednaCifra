@@ -1,0 +1,16 @@
+/**/
+#include<iostream>
+using namespace std;
+int main(){
+  int a,p_cifra,s_cifra,t_cifra;//prva cifra, sredna cifra, treta cifra a e trocifren broj
+  cout<<"Programot presmetuva sredna cifra na trocifren broj"<<endl;
+  cout<<"Vnesi go trocifreniot broj"<<endl;
+  cin>>a;
+  
+  p_cifra= a/100;
+  s_cifra=( a%100 ) / 10;
+  t_cifra=( a%100 ) %10;
+  
+  cout<<"Sredna cifra na brojot "<<a<<" e "<<s_cifra<<endl;
+
+}
