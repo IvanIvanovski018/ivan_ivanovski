@@ -1,0 +1,25 @@
+/*
+  Naslov na programot: Perimetar na kruznica i plostina na krug
+  Izraboteno od strana na Ivan Ivanovski
+*/
+
+#include<iostream>
+using namespace std;
+int main(){
+  float radius, perimetarKruznica, plostinaKrug;
+  const float pi = 3.1415;
+  
+  cout<<"Programot presmetuva plostina na krug i perimetar na kruznica "<<endl;
+  cout<<"Vnesi go radiusot r: ";
+  cin>>radius;
+  
+  perimetarKruznica=2*radius*pi;
+  plostinaKrug=radius*radius*pi;
+  
+  
+  cout<<"Obikolka na kruznicata iznesuva "<<perimetarKruznica<<endl;
+  cout<<"Plostina na krugot iznesuva"<<plostinaKrug<<endl;
+  
+  cin.get();
+  cin.get();
+}
